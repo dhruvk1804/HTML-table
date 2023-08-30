@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Roboto:wght@300&family=Vina+Sans&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: rgb(250, 215, 210);
+  height: 100vh;
+}
+.content{
+  border-collapse:collapse;
+  margin-left:20% ;
+  font-size:0.9em;
+}
+.content th,
+.content td{
+  padding: 15px 15px;
+}
+.content tbody tr{
+  border-bottom:1px solid #dddddd;
+}
+.content tbody tr:nth-of-type(even)
+{
+   background-color: #dddddd;
+}
+.content tbody tr:last-of-type 
+{
+  border-bottom: 1px solid #ff0000;
+}
+
+#row
+{
+   display: flex;
+   flex-direction: row;
+}
+tr:nth-child(even){
+    background-color: #fff;
+}
+tr:nth-child(odd){
+    background-color: #bbb;
+}
+#lunch{
+  background-color: white;
+}
+#red{
+  background-color: red;
+  color: white;
+}
+#head{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 0.7em;
+  font-weight: bolder;
+}
+#row{
+  display: flex;
+  flex-direction: row;
+}
+#kalvium{
+  height: 200px;
+  width: 1100px;
+  padding-top: 2%;
+}
+#student,#course{
+  padding-top: 2%;
+  color: red;
+  font-weight: bolder;
+  padding-right: 2%;
+}
+#profile img{
+    margin-left: 20px;
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+
+}
